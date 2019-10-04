@@ -53,7 +53,7 @@ padding: 0px;
   margin-right: auto;
   left: 0;
   right: 0;
-
+  z-index: 2;
 
 }
 
@@ -330,7 +330,7 @@ margin-bottom: 23px;
   margin: 0 auto;
   width: 1200px;
   height: 764px;
-  background: url("../img/map.jpg") 0px 291px no-repeat;
+  abackground: url("../img/map.jpg") 0px 291px no-repeat;
 
 }
 
@@ -496,6 +496,7 @@ margin: 0 auto;
 }
 
 .filter-container {
+  position: relative;
   display: flex;
   background-image: url("../img/filter-background.jpg");
   background-repeat: no-repeat;
@@ -730,7 +731,7 @@ input[type="number"] {
   height: 38px;
   padding: 0;
   margin-left: -4px;
-  text-align: end;
+
 }
 
 input {
@@ -1163,8 +1164,28 @@ input[type="radio"].visually-hidden {
   left: 80%;
 }
 
-.btn-transparent {
+.filter-button {
+  position: absolute;
+  top: 148px;
+  left: 895px;
+  width: 136px;
+  min-height: 36px;
   display: block;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: normal;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+.btn-transparent {
+  /* display: block; */
+  display: none;
   margin-left: 85px;
   padding: 6px 34px;
 
@@ -1220,7 +1241,7 @@ margin-left: 115px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.31;
-  margin-left: 3px
+  margin-left: 2px
 }
 .fieldset-filter2 {
 text-align: left;
@@ -1237,15 +1258,13 @@ text-align: left;
 
 .filter-option {
   margin-bottom: 19px;
-  padding-left: 45px;
+  padding-left: 43px;
 }
 
 .filter-option label {
   position: relative;
-
+  font-weight: normal;
   display: block;
-
-  cursor: pointer;
   user-select: none;
 }
 
