@@ -367,6 +367,7 @@ margin: 0;
 
 .check-in-form, .check-out-form {
   display: inline-block;
+  vertical-align: middle;
   margin-left: 22px;
   padding-left: 12px;
   width: 300px;
@@ -396,6 +397,7 @@ margin-top: 54px;
 .adults, .children {
 display: inline-block;
 margin-bottom: 50px;
+vertical-align: baseline;
 }
 
 .adults {
@@ -751,11 +753,7 @@ input:focus {
   width: 35px;
   padding: 0;
   margin-left: -4px;
-  margin-top: -4px;
-  /* background: url("../img/calendar.svg") 35% 50% no-repeat;
-  background-color: #f2f2f2; */
-
-}
+ }
 
 .calendar-in path, .calendar-out path {
   fill: #cacaca;
@@ -775,8 +773,6 @@ input:focus {
   width: 35px;
   padding: 0;
   margin-left: -4px;
-  margin-top: -4px;
-
 }
 
 .reduce, .add {
@@ -803,7 +799,8 @@ input:focus {
   position: absolute;
   font-size: 24px;
   top: -8px;
-    right: 13px;
+  right: 13px;
+  vertical-align: baseline;
 }
 
 .children label {
@@ -881,6 +878,7 @@ color: #000000;
 .academy-logo {
 display: inline-block;
 margin-left: 5px;
+vertical-align: middle;
 }
 
 .academy-logo:hover path {
@@ -921,16 +919,13 @@ fill: #bdbbbc;
   color: #333333;
   line-height: 1.5;
   display: inline-block;
+  vertical-align: middle;
   width: 100px;
 }
 
 .catalog-item-price {
-
   margin-left: 13px;
-
 }
-
-
 
 .button-book, .button-info  {
   font-weight: bold;
@@ -944,8 +939,7 @@ fill: #bdbbbc;
   display: inline-block;
   width: 110px;
   min-height: 27px;
-
-
+  vertical-align: baseline;
 }
 
 .button-book {
@@ -954,7 +948,7 @@ fill: #bdbbbc;
   width: 142px;
   min-height: 27px;
   margin-left: 3px;
-
+  vertical-align: baseline;
 }
 
 .button-info:hover {
@@ -1094,11 +1088,9 @@ input[type="radio"].visually-hidden {
 
 .price-controls label {
   display: inline-block;
-
   font-size: 14px;
   line-height: 32px;
   vertical-align: top;
-
   cursor: pointer;
 }
 
