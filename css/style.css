@@ -956,7 +956,7 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   text-transform: uppercase;
   margin-left: auto;
-  margin-right: 72px;
+  margin-right: 43px;
 }
 
 .filter-range-title {
@@ -981,6 +981,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 50%;
   left: 50%;
+  margin-left: 1px;
   width: 2px;
   height: 22px;
   background: #ffffff;
@@ -990,6 +991,7 @@ input[type="radio"].visually-hidden {
 .price-controls label {
   display: inline-block;
   font-size: 14px;
+  font-weight: normal;
   line-height: 32px;
   vertical-align: top;
   cursor: pointer;
@@ -1054,7 +1056,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 148px;
   left: 895px;
-  width: 136px;
+  width: 137px;
   min-height: 36px;
   display: block;
   font-size: 14px;
@@ -1094,7 +1096,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filters {
-  width: 400px;
+  min-width: 1100px;
   color: #ffffff;
   margin-left: 71px;
 }
