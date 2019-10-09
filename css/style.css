@@ -439,6 +439,7 @@ margin: 0;
   background-position: 0% 50%;
   padding-top: 27px;
   padding-bottom: 8px;
+  min-height: 181px;
 }
 
 .filter-result {
@@ -997,6 +998,15 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
+.min-price {
+  margin-top: -1px;
+  margin-left: -2px;
+}
+
+.max-price {
+  margin-top: -1px;
+  margin-left: 3px;
+}
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
@@ -1143,11 +1153,21 @@ input[type="radio"].visually-hidden {
   user-select: none;
 }
 
+.fieldset-filter label {
+  margin-left: -2px;
+  margin-top: -1px;
+}
+
+.fieldset-filter2 label {
+  margin-left: 0;
+  margin-top: -1px;
+}
+
 .filter-input-checkbox + label::before {
   content: "";
   position: absolute;
-  left: -42px;
-  top: 0;
+  left: -41px;
+  top: 1px;
   width: 23px;
   height: 23px;
   background-image: url("../img/checkbox-off.svg");
@@ -1156,8 +1176,8 @@ input[type="radio"].visually-hidden {
 .filter-input-checkbox:checked + label::after {
   content: "";
   position: absolute;
-  left: -42px;
-  top: 0;
+  left: -41px;
+  top: 1px;
   width: 26px;
   height: 23px;
   background-image: url("../img/checkbox-on.svg");
