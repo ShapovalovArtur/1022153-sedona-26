@@ -648,7 +648,7 @@ h3 + p {
 }
 
 .modal-book input[type="number"] {
-  text-align: center;
+  text-align: end;
   width: 38px;
   height: 38px;
   padding: 0;
