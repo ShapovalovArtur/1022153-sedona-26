@@ -308,7 +308,8 @@ margin: 0;
 .modal-book {
   width: 568px;
   height: 395px;
-  background-color: #ffffff
+  background-color: #ffffff;
+  display: none;
 }
 
 .booking-form {
