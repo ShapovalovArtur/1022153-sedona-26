@@ -309,6 +309,13 @@ margin: 0;
   width: 568px;
   height: 395px;
   background-color: #ffffff;
+}
+
+.modal-show {
+  display: block;
+}
+
+.modal-hide {
   display: none;
 }
 
