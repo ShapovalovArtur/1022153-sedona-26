@@ -309,11 +309,20 @@ margin: 0;
   width: 568px;
   height: 395px;
   background-color: #ffffff;
+  animation-name: slideDown;
+  animation-duration: 0.5s;
+  animation-direction: reverse;
+}
+
+@keyframes slideDown {
+  to {
+    transform: translateY(-100%);
+  }
 }
 
 .modal-show {
   display: block;
-}
+  }
 
 .modal-hide {
   display: none;
