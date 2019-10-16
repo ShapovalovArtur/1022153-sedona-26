@@ -291,10 +291,10 @@ padding-left: 25px;
   /* background: url("../img/map.jpg") 0px 291px no-repeat; */
 }
 
-.map-wrapper {
+.frame {
   position: absolute;
   top: 2169px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .interest {
