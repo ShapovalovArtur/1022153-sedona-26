@@ -385,10 +385,6 @@ margin: 0;
   z-index: 2;
 }
 
-iframe {
-  z-index: -100;
-}
-
 .hashtag-container {
   margin-top: 47px;
   margin-left: 132px;
