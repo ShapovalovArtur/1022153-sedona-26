@@ -291,6 +291,12 @@ padding-left: 25px;
   /* background: url("../img/map.jpg") 0px 291px no-repeat; */
 }
 
+.map-wrapper {
+  position: absolute;
+  top: 2169px;
+  z-index: 1;
+}
+
 .interest {
   padding-top: 51px;
   width: 460px;
@@ -375,6 +381,12 @@ margin: 0;
   min-height: 120px;
   display: flex;
   margin: 0 auto;
+  background: #ffaaaa ;
+  z-index: 2;
+}
+
+iframe {
+  z-index: -100;
 }
 
 .hashtag-container {
