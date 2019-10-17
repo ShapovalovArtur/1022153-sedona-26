@@ -1251,6 +1251,11 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat;
 }
 
+.filter-input-checkbox:checked + label::before {
+  content: "";
+  background: transparent;
+}
+
 .filter-input-radio + label::before {
   content: "";
   position: absolute;
