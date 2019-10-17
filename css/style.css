@@ -288,13 +288,12 @@ padding-left: 25px;
   margin: 0 auto;
   width: 1200px;
   height: 764px;
-  /* background: url("../img/map.jpg") 0px 291px no-repeat; */
+  background: url("../img/map.jpg") 0px 291px no-repeat;
 }
 
 .frame {
   position: absolute;
   top: 2169px;
-  z-index: 0;
 }
 
 .interest {
