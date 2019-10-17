@@ -315,6 +315,7 @@ margin: 0;
 }
 
 .modal-book {
+  z-index: 1;
   width: 568px;
   height: 395px;
   background-color: #ffffff;
@@ -377,6 +378,7 @@ margin: 0;
 }
 
 .main-footer {
+  position: relative;
   width: 1200px;
   min-height: 120px;
   display: flex;
