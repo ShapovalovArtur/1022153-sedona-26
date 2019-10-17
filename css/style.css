@@ -84,7 +84,9 @@ a {
   color: #000000;
 }
 
-.main-navigation, .container, .main-footer {
+.main-navigation,
+.container,
+.main-footer {
   background-color: #ffffff;
   box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
@@ -151,7 +153,8 @@ a {
   line-height: 21px; ;
 }
 
-.features-list h2, .features-list p {
+.features-list h2,
+.features-list p {
   margin: 0;
 }
 
@@ -159,29 +162,40 @@ a {
 display: block;
 
 }
-.feature-town h2, .feature-road h2, .feature-tourist h2 {
+.feature-town h2,
+.feature-road h2,
+.feature-tourist h2 {
   margin-right: 75px;
   margin-left: 75px;
 }
 
 .feature-town,
-.feature-bridge, .feature-square, .feature-road, .feature-tourist  {
+.feature-bridge,
+.feature-square,
+.feature-road,
+.feature-tourist  {
   width: 400px;
   min-height: 256px;
   z-index: 2;
 }
 
-.feature-square, .feature-road, .feature-tourist {
+.feature-square,
+.feature-road,
+.feature-tourist {
   background-color: #eeeeee;
 }
 
-.feature-town, .feature-bridge,
-.feature-town p, .feature-bridge p {
+.feature-town,
+.feature-bridge,
+.feature-town p,
+.feature-bridge p {
 background-color: #81b3d2;
 color: #ffffff;
 }
 
-.feature-bridge, .feature-square, .feature-road,
+.feature-bridge,
+.feature-square,
+.feature-road,
 .feature-tourist {
 padding-top: 48px;
 padding-left: 48px;
@@ -230,13 +244,17 @@ padding-left: 25px;
   padding-right: 65px;
 }
 
-.feature-motel, .feature-food, .feature-souvenir {
+.feature-motel,
+.feature-food,
+.feature-souvenir {
   position: relative;
   min-height: 330px;
   width: 400px;
 }
 
-.feature-motel h2, .feature-food h2, .feature-souvenir h2 {
+.feature-motel h2,
+.feature-food h2,
+.feature-souvenir h2 {
   margin-top: 163px;
   margin-bottom: 23px;
 }
@@ -343,7 +361,8 @@ margin: 0;
   text-align: left;
 }
 
-.check-in-form, .check-out-form {
+.check-in-form,
+.check-out-form {
   display: inline-block;
   vertical-align: middle;
   margin-left: 22px;
@@ -366,7 +385,8 @@ margin: 0;
   margin-top: 28px;
 }
 
-.adults, .children {
+.adults,
+.children {
   display: inline-block;
   margin-bottom: 49px;
   vertical-align: baseline;
@@ -508,7 +528,8 @@ margin: 0;
   color: #81b3d2;
 }
 
-.sort-type, .sort-rating {
+.sort-type,
+.sort-rating {
   color: rgba(0, 0, 0, 0.3);
   padding: 0;
   border-bottom: thin dotted #81b3d2;
@@ -522,16 +543,19 @@ margin: 0;
   margin-left: 34px;
 }
 
-.sort-type:hover, .sort-rating:hover {
+.sort-type:hover,
+.sort-rating:hover {
   color: #81b3d2
 }
 
-.sort-type:active, .sort-rating:active {
+.sort-type:active,
+.sort-rating:active {
   color: #000000;
   border-bottom: none;
 }
 
-.up, .down {
+.up,
+.down {
   width: 11px;
   height: 10px;
   padding: 0;
@@ -554,11 +578,13 @@ margin: 0;
   fill: #81b3d2;
 }
 
-.up:hover path, .down:hover path {
+.up:hover path,
+.down:hover path {
   fill: #231F20;
 }
 
-.up:active path, .down:active path {
+.up:active path,
+.down:active path {
   fill: #81b3d2;
 }
 
@@ -671,7 +697,9 @@ h3 + p {
   color: rgba(255, 255, 255, 0.3)
 }
 
-.modal-book input, .modal-book label, .filter label {
+.modal-book input,
+.modal-book label,
+.filter label {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.86;
@@ -706,15 +734,18 @@ h3 + p {
   margin-left: -4px;
  }
 
-.calendar-in path, .calendar-out path {
+.calendar-in path,
+.calendar-out path {
   fill: #cacaca;
 }
 
-.calendar-in:hover path, .calendar-out:hover path {
+.calendar-in:hover path,
+.calendar-out:hover path {
   fill: #000000;
 }
 
-.calendar-in:active path, .calendar-out:active path {
+.calendar-in:active path,
+.calendar-out:active path {
   fill: #81b3d2;
 }
 
@@ -725,7 +756,8 @@ h3 + p {
   margin-left: -4px;
 }
 
-.reduce, .add {
+.reduce,
+.add {
   font-size: 14px;
   width: 38px;
   height: 38px;
@@ -757,11 +789,13 @@ h3 + p {
   margin-right: -10px;
 }
 
-.reduce:hover, .add:hover {
+.reduce:hover,
+.add:hover {
   color: #000000;
 }
 
-.reduce:active, .add:active {
+.reduce:active,
+.add:active {
   color: #81b3d2;
 }
 
@@ -857,7 +891,8 @@ fill: #bdbbbc;
   color: rgba(0, 0, 0, 0.3);
 }
 
-.catalog-category, .catalog-item-price {
+.catalog-category,
+.catalog-item-price {
   color: #333333;
   line-height: 1.5;
   display: inline-block;
@@ -869,7 +904,8 @@ fill: #bdbbbc;
   margin-left: 13px;
 }
 
-.button-book, .button-info  {
+.button-book,
+.button-info  {
   font-weight: bold;
   color: #ffffff;
   text-align: center;
