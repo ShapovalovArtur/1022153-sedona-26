@@ -35,6 +35,8 @@ img {
 }
 
 .site-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   padding: 0px;
@@ -88,10 +90,13 @@ a {
 .container,
 .main-footer {
   background-color: #ffffff;
-  box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
+  -webkit-box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
+          box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 
 .main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 1200px;
   display:flex;
@@ -108,10 +113,19 @@ a {
 }
 
 .welcome-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 648px;
   margin: 0 auto;
   background: url("../img/main-intro3.jpg") no-repeat;
@@ -134,17 +148,29 @@ a {
 }
 
 .features-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   width: 1200px;
 }
 
 .features-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
@@ -212,7 +238,8 @@ padding-left: 25px;
 }
 
 .features-list li {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .feature-town {
@@ -299,10 +326,19 @@ padding-left: 25px;
 }
 
 .book-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   width: 1200px;
   height: 764px;
@@ -336,14 +372,24 @@ margin: 0;
   width: 568px;
   height: 395px;
   background-color: #ffffff;
-  animation-name: slideDown;
-  animation-duration: 0.5s;
+  -webkit-animation-name: slideDown;
+          animation-name: slideDown;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
   animation-direction: reverse;
+}
+
+@-webkit-keyframes slideDown {
+  to {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
 }
 
 @keyframes slideDown {
   to {
-    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
   }
 }
 
@@ -400,6 +446,8 @@ margin: 0;
   position: relative;
   width: 1200px;
   min-height: 121px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.9);
@@ -483,6 +531,8 @@ margin: 0;
 
 .filter-container {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-image: url("../img/filter-background.jpg");
   background-repeat: no-repeat;
@@ -493,8 +543,11 @@ margin: 0;
 }
 
 .filter-result {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-bottom: 1px solid #f2f2f2;
   text-align: left;
   padding-bottom: 30px;
@@ -589,21 +642,29 @@ margin: 0;
 }
 
 .catalog-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 0px;
   border-top: 1px solid white;
   margin: 0;
 
 }
 .catalog-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   margin-top: 30px;
   padding-left: 72px;
   min-height: 121px;
   border-bottom:  1px solid #f2f2f2;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 
 }
 
@@ -825,6 +886,8 @@ color: #000000;
 }
 
 .footer-social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   margin: 0;
@@ -838,7 +901,8 @@ color: #000000;
 }
 
 .footer-social li {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #81b3d2;
   width: 46px;
   height: 48px;
@@ -1013,7 +1077,8 @@ input[type="radio"].visually-hidden {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  clip-path: inset(100%);
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -1053,7 +1118,9 @@ input[type="radio"].visually-hidden {
   width: 2px;
   height: 22px;
   background: #ffffff;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .price-controls label {
@@ -1113,7 +1180,8 @@ input[type="radio"].visually-hidden {
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
-  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  -webkit-box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+          box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
 }
 
@@ -1169,6 +1237,8 @@ input[type="radio"].visually-hidden {
 /* filter fieldset */
 
 .filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1217,7 +1287,10 @@ input[type="radio"].visually-hidden {
   position: relative;
   font-weight: normal;
   display: block;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .fieldset-filter label {
