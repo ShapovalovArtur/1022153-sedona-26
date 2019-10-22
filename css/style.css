@@ -564,11 +564,16 @@ margin: 0;
   margin-top: 31px;
   margin-left: 31px;
   margin-left: 72px;
-  }
+}
 
-  .found-quantity {
-    margin-left: 5px;
-  }
+.found-quantity {
+  margin-left: 72px;
+  display: inline-block;
+  min-height: 16px;
+  margin-top: 32px;
+  font-size: 21px;
+  font-weight: bold;
+}
 
 .filter-result button {
   font-size: 12px;
