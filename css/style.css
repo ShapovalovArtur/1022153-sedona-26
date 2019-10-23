@@ -22,6 +22,13 @@ img {
   height: auto;
 }
 
+.features-list p,
+.main-footer p,
+.container p {
+  line-height: 1.86;
+  color: #333333;
+}
+
 .button {
   font: inherit;
   font-weight: bold;
@@ -370,7 +377,8 @@ padding-left: 25px;
 }
 
 .interest p {
-margin: 0;
+  margin: 0;
+  padding-top: 3px;;
 }
 
 .modal-book {
@@ -733,11 +741,6 @@ margin: 0;
 .about p {
 margin: 0;
 margin-top: 27px;
-}
-
-p {
-  line-height: 1.86;
-  color: #333333;
 }
 
 .interest h3 {
