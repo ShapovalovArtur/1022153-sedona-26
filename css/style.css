@@ -449,12 +449,12 @@ padding-left: 25px;
 .adults,
 .children {
   display: inline-block;
-  margin-bottom: 49px;
+  margin-bottom: 51px;
   vertical-align: baseline;
 }
 
 .adults {
-  margin-right: 50px;
+  margin-right: 49px;
 }
 
 .main-footer {
@@ -668,7 +668,6 @@ padding-left: 25px;
   padding: 0px;
   border-top: 1px solid white;
   margin: 0;
-
 }
 .catalog-item {
   display: -webkit-box;
@@ -681,7 +680,6 @@ padding-left: 25px;
   border-bottom:  1px solid #f2f2f2;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-
 }
 
 .catalog-item-image {
@@ -770,21 +768,49 @@ h3 + p {
 }
 
 .modal-book input,
-.modal-book label,
-.filter label {
+.modal-book label {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.86;
-  text-align: left;
   border: none;
 }
 
+.filter label {
+  line-height: 1.86;
+  text-align: left;
+}
+
 .modal-book input[type="number"] {
+  -moz-appearance: textfield;
   text-align: end;
   width: 38px;
   height: 38px;
   padding: 0;
   margin-left: -4px;
+}
+
+.adults-input {
+  margin-left: -4px;
+  height: 36px;
+  margin-bottom: 2px;
+  margin-top: 0px;
+  text-align: center;
+  width: 40px;
+}
+
+.children-input {
+  margin-left: -4px;
+  height: 36px;
+  margin-bottom: 2px;
+  margin-top: 0px;
+  text-align: center;
+  width: 39px;
+}
+
+.modal-book input[type=number]::-webkit-inner-spin-button,
+.modal-book input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin-left: 15px;
 }
 
 .modal-book input {
@@ -835,11 +861,11 @@ h3 + p {
   height: 38px;
   color: #cacaca;
   background-color: #f2f2f2;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .reduce {
-  margin-left: 35px;
+  margin-left: 34px;
   position: relative;
 }
 
