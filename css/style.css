@@ -469,6 +469,12 @@ padding-left: 25px;
 }
 
 .footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
   margin-top: 36px;
   margin-left: 250px;
   width: 156px;
@@ -892,15 +898,6 @@ color: #000000;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.footer-social ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .hashtag {
   display: block;
   font-size: 21px;
@@ -930,17 +927,17 @@ color: #000000;
 }
 
 .academy-logo {
-display: inline-block;
-margin-left: 5px;
-vertical-align: middle;
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
 }
 
 .academy-logo:hover path {
-fill: #81b3d2;
+  fill: #81b3d2;
 }
 
 .academy-logo:active path {
-fill: #bdbbbc;
+  fill: #bdbbbc;
 }
 
 
