@@ -468,13 +468,6 @@ padding-left: 25px;
   z-index: 2;
 }
 
-.hashtag-container {
-  margin-top: 46px;
-  margin-left: 132px;
-  width: 136px;
-  height: 16px;
-}
-
 .footer-social {
   margin-top: 36px;
   margin-left: 250px;
@@ -909,9 +902,14 @@ color: #000000;
 }
 
 .hashtag {
+  display: block;
   font-size: 21px;
   font-weight: bold;
   line-height: 1.24;
+  margin-top: 46px;
+  margin-left: 132px;
+  width: 136px;
+  height: 16px;
 }
 
 .footer-social li {
