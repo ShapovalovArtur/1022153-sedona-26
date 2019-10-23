@@ -531,15 +531,11 @@ padding-left: 25px;
   background-position: 0 0;
 }
 
-.copyright-container {
+.footer-copyright {
   margin-top: 39px;
   margin-left: 226px;
   width: 202px;
   min-height: 41px;
-}
-
-.copyright-container p {
-  margin: 0;
 }
 
 .filter-container {
