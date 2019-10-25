@@ -84,10 +84,6 @@ img {
   margin-left: 16px;
 }
 
-:focus {
-outline: none;
-}
-
 a {
   text-decoration: none;
   color: #000000;
@@ -719,6 +715,7 @@ padding-left: 25px;
 
 .site-navigation a:focus {
   color: #766357;
+  outline-color: #491213;
 }
 
 .site-navigation a:active {
