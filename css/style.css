@@ -930,6 +930,24 @@ color: #000000;
   height: 16px;
 }
 
+.main-footer a:focus {
+  outline-color: #491213;
+}
+
+.social-button:focus::before  {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-left: -2px;
+  width: 46px;
+  height: 48px;
+  border: 2px solid rgba(73, 18, 19, 0.5);
+}
+
 .footer-social li {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
