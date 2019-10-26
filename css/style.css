@@ -665,6 +665,11 @@ padding-left: 25px;
   border-top: 1px solid white;
   margin: 0;
 }
+
+.catalog-list a:focus {
+  outline-color: #1620af;
+}
+
 .catalog-item {
   display: -webkit-box;
   display: -ms-flexbox;
