@@ -1279,6 +1279,11 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
+.filter-button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 .btn-transparent {
   display: none;
   margin-left: 85px;
@@ -1392,6 +1397,17 @@ input[type="radio"].visually-hidden {
   content: "";
   background: transparent;
 }
+
+/* активное остояние для чекбоксов
+.filter-input-checkbox:focus + label::before {
+  content: "";
+  position: absolute;
+  left: -41px;
+  top: 1px;
+  width: 23px;
+  height: 23px;
+  border: #bd7420 1px solid;
+} */
 
 .filter-input-radio + label::before {
   content: "";
