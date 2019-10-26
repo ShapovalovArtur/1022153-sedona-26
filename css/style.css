@@ -1398,7 +1398,8 @@ input[type="radio"].visually-hidden {
   background: transparent;
 }
 
-/* активное остояние для чекбоксов
+/* активное остояние для чекбоксов*/
+/*
 .filter-input-checkbox:focus + label::before {
   content: "";
   position: absolute;
@@ -1407,7 +1408,8 @@ input[type="radio"].visually-hidden {
   width: 23px;
   height: 23px;
   border: #bd7420 1px solid;
-} */
+}
+*/
 
 .filter-input-radio + label::before {
   content: "";
