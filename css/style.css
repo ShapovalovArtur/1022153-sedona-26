@@ -1399,7 +1399,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-input-checkbox:focus + label {
-  border: #215170 1px solid;
+  text-decoration: #ffffff underline dashed;
 }
 
 .filter-input-radio + label::before {
