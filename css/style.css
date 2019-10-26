@@ -825,6 +825,7 @@ h3 + p {
 
 .modal-book input:focus {
   background-color: #ffffff;
+  outline-color: #e5e5e5;
 }
 
 .calendar-in {
