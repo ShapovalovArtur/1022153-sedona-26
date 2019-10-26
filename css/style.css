@@ -208,8 +208,9 @@ display: block;
 .feature-road,
 .feature-tourist  {
   width: 400px;
-  min-height: 256px;
+  height: 256px;
   z-index: 2;
+  overflow: hidden;
 }
 
 .feature-square,
@@ -282,8 +283,9 @@ padding-left: 25px;
 .feature-food,
 .feature-souvenir {
   position: relative;
-  min-height: 330px;
+  height: 330px;
   width: 400px;
+  overflow: hidden;
 }
 
 .feature-motel h2,
