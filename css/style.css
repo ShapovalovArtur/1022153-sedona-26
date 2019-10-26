@@ -148,8 +148,8 @@ a {
 }
 
 .about {
-  width: 489px;
-  height: 110px;
+  min-width: 489px;
+  min-height: 110px;
   margin-top: 58px;
 }
 
