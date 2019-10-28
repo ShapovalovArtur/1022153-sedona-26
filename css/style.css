@@ -396,7 +396,7 @@ padding-left: 25px;
 .modal-book {
   z-index: 1;
   width: 568px;
-  height: 395px;
+  min-height: 395px;
   background-color: #ffffff;
   -webkit-animation-name: slideDown;
           animation-name: slideDown;
