@@ -223,22 +223,22 @@ display: block;
 .feature-bridge,
 .feature-town p,
 .feature-bridge p {
-background-color: #81b3d2;
-color: #ffffff;
+  background-color: #81b3d2;
+  color: #ffffff;
 }
 
 .feature-bridge,
 .feature-square,
 .feature-road,
 .feature-tourist {
-padding-top: 48px;
-padding-left: 48px;
-padding-right: 48px;
+  padding-top: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .feature-tourist p {
-padding-right: 23px;
-padding-left: 25px;
+  padding-right: 23px;
+  padding-left: 25px;
 }
 
 .feature-bridge {
@@ -919,11 +919,11 @@ h3 + p {
 }
 
 .modal-book input::-webkit-input-placeholder  {
-color: #000000;
+  color: #000000;
 }
 
 .modal-book input::-moz-placeholder {
-color: #000000;
+  color: #000000;
 }
 
 .submit {
