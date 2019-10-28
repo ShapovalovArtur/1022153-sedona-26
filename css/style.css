@@ -198,8 +198,8 @@ display: block;
 .feature-town h2,
 .feature-road h2,
 .feature-tourist h2 {
-  margin-right: 75px;
-  margin-left: 75px;
+  margin-right: 72px;
+  margin-left: 72px;
 }
 
 .feature-town,
@@ -295,10 +295,23 @@ padding-left: 25px;
   margin-bottom: 23px;
 }
 
+.feature-square h2,
+.feature-road h2,
+.feature-tourist h2 {
+  height: 69px;
+  overflow: hidden;
+}
+
 .number {
   display: block;
   margin-top: 27px;
   margin-bottom: 23px;
+}
+
+.feature-square .number,
+.feature-road .number,
+.feature-tourist .number {
+  margin-top: -1px;
 }
 
 .feature-motel h2::before {
