@@ -599,11 +599,15 @@ padding-left: 25px;
 
 .sort {
   color: #000000;
-  margin-left: 42px;
+  margin-left: 48px;
+  margin-top: 39px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: normal;
 }
 
 .sort-price {
-  margin-left: 27px;
+  margin-left: 33px;
   color: #81b3d2;
 }
 
