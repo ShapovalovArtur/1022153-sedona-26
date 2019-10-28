@@ -1134,7 +1134,7 @@ color: #000000;
   background-position: 0 0;
 }
 
-.catalog-item:last-child::before {
+.catalog-item:nth-child(3)::before {
   content: "";
   position: absolute;
   left: 1087px;
