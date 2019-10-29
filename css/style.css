@@ -131,9 +131,7 @@ a {
           align-items: center;
   min-height: 648px;
   margin: 0 auto;
-  background: linear-gradient(to bottom right, #81b3d3, #b79185);
-  background: url("../img/main-intro3.jpg") no-repeat;
-  background-position: 0% -56px;
+  background: url("../img/main-intro.jpg") no-repeat, linear-gradient(to bottom right, #81b3d3, #b79185);
   padding-top: 76px;
 }
 
@@ -148,9 +146,12 @@ a {
 }
 
 .about {
-  min-width: 489px;
+  width: 1200px;
   min-height: 110px;
-  margin-top: 58px;
+  margin-top: -1px;
+  padding-top: 58px;
+  padding-bottom: 47px;
+  background-color: #ffffff;
 }
 
 .features-container {
@@ -555,9 +556,7 @@ display: block;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: linear-gradient(to bottom right, #7097b6, #6e5146);
-  background-image: url("../img/filter-background.jpg");
-  background-repeat: no-repeat;
+  background: url("../img/filter-background.jpg") no-repeat, linear-gradient(to bottom right, #7097b6, #6e5146);
   background-position: 0% 50%;
   padding-top: 27px;
   padding-bottom: 8px;
