@@ -893,25 +893,34 @@ margin-top: 27px;
   font-size: 24px;
 }
 
-.minus {
-  display: inline-block;
+.reduce::after  {
+  content: "";
   position: absolute;
+  width: 11px;
+  height: 3px;
+  background-color: #cacaca;
+  margin: auto;
   font-size: 24px;
-  top: -8px;
-  right: 14px;
-  vertical-align: baseline;
+  top: 18px;
+  right: 13px;
 }
 
 .children label {
   margin-right: -13px;
 }
 
-.reduce:hover,
+.reduce:hover::after {
+ background-color: #000000;
+}
+
 .add:hover {
   color: #000000;
 }
 
-.reduce:active,
+.reduce:active:after {
+  background-color: #81b3d2;
+}
+
 .add:active {
   color: #81b3d2;
 }
