@@ -86,6 +86,11 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.main-header a,
+.main-footer a,
+.catalog-item-title a {
   color: #000000;
 }
 
@@ -391,7 +396,8 @@ display: block;
 
 .interest p {
   margin: 0;
-  padding-top: 3px;;
+  padding-top: 6px;
+  line-height: 1.71;
 }
 
 .modal-book {
@@ -766,10 +772,6 @@ margin-top: 27px;
   margin-bottom: 18px;
 }
 
-h3 + p {
-  line-height: 1.71;
-}
-
 .modal-book-button {
   font-size: 21px;
   width: 568px;
@@ -1010,7 +1012,6 @@ h3 + p {
 .academy-logo:active path {
   fill: #bdbbbc;
 }
-
 
 .footer-copyright b {
   display: inline-block;
@@ -1317,8 +1318,6 @@ input[type="radio"].visually-hidden {
   color: #000000;
   background: #ffffff;
 }
-
-/* filter fieldset */
 
 .filter {
   display: -webkit-box;
