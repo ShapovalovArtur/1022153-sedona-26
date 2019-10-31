@@ -301,16 +301,18 @@ display: block;
   margin-bottom: 23px;
 }
 
+.feature-town h2,
+.feature-bridge h2,
 .feature-square h2,
 .feature-road h2,
 .feature-tourist h2 {
-  height: 69px;
+  height: 65px;
   overflow: hidden;
 }
 
 .number {
   display: block;
-  margin-top: 27px;
+  margin-top: 31px;
   margin-bottom: 23px;
 }
 
