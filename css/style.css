@@ -297,8 +297,8 @@ display: block;
 .feature-motel h2,
 .feature-food h2,
 .feature-souvenir h2 {
-  margin-top: 163px;
-  margin-bottom: 23px;
+  margin-top: 161px;
+  margin-bottom: 24px;
 }
 
 .feature-town h2,
@@ -312,14 +312,8 @@ display: block;
 
 .number {
   display: block;
-  margin-top: 31px;
+  margin-top: 3px;
   margin-bottom: 23px;
-}
-
-.feature-square .number,
-.feature-road .number,
-.feature-tourist .number {
-  margin-top: -1px;
 }
 
 .feature-motel h2::before {
@@ -354,6 +348,8 @@ display: block;
 
 .features-list p {
   line-height: 1.5;
+  height: 60px;
+  overflow: hidden;
 }
 
 .book-container {
