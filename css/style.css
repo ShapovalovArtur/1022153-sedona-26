@@ -445,22 +445,38 @@ display: block;
 .check-out-form {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 22px;
-  padding-left: 12px;
+  margin-left: 0px;
+  padding-left: 13px;
   width: 300px;
   height: 38px;
   text-transform: uppercase;
 }
 
 .check-out-form {
-  margin-left: 18px;
-  padding-left: 13px;
+  margin-left: 0px;
 }
 
  .check-in {
   margin-top: 54px;
 }
 
+.input-label-date {
+  display: inline-block;
+  width: 110px;
+  vertical-align: baseline;
+}
+
+.input-label-adults {
+  display: inline-block;
+  width: 110px;
+  vertical-align: baseline;
+}
+
+.input-label-children {
+  display: inline-block;
+  width: 78px;
+  vertical-align: baseline;
+}
 .check-out {
   margin-top: 28px;
 }
@@ -889,7 +905,7 @@ margin-top: 27px;
 }
 
 .reduce {
-  margin-left: 40px;
+  margin-left: 1px;
   position: relative;
 }
 

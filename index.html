@@ -99,7 +99,7 @@
         <h2 class="visually-hidden">Booking form window</h2>
         <form class="booking-form" action="https://echo.htmlacademy.ru" method="post">
           <p class="check-in">
-            <label>Дата заезда:<input class="check-in-form" type="text" name="check-in-date" value=""
+            <label><span class="input-label-date">Дата заезда:</span><input class="check-in-form" type="text" name="check-in-date" value=""
                 placeholder="24 апреля 2017"></label>
             <button class="calendar-in button" type="button">
               <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22">
@@ -111,7 +111,7 @@
               <span class="visually-hidden">Календарь</span></button>
           </p>
           <p class="check-out">
-            <label>Дата выезда:<input class="check-out-form" type="text" name="check-out-date" value=""
+            <label><span class="input-label-date">Дата выезда:</span><input class="check-out-form" type="text" name="check-out-date" value=""
                 placeholder="4 июля 2017"></label>
             <button class="calendar-out button" type="button">
               <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22">
@@ -123,13 +123,13 @@
               <span class="visually-hidden">Календарь</span></button>
           </p>
           <p class="adults">
-            <label for="adults">Взрослые:</label>
+            <label for="adults"><span class="input-label-adults">Взрослые:</span></label>
             <button class="reduce button" type="button"><span class="visually-hidden">Уменьшить</span></button>
             <input class="adults-input" type="text" id="adults" name="adults" value="" placeholder="2">
             <button class="add button" type="button">+<span class="visually-hidden">Добавить</span></button>
           </p>
           <p class="children">
-            <label for="children">Дети:</label>
+            <label for="children"><span class="input-label-children">Дети:</span></label>
             <button class="reduce button" type="button"><span class="visually-hidden">Уменьшить</span></button>
             <input class="children-input" type="text" id="children" name="children" value="" placeholder="0">
             <button class="add button" type="button">+<span class="visually-hidden">Добавить</span></button>
