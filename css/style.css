@@ -299,6 +299,8 @@ display: block;
 .feature-souvenir h2 {
   margin-top: 161px;
   margin-bottom: 24px;
+  max-height: 63px;
+  overflow: hidden;
 }
 
 .feature-town h2,
@@ -306,14 +308,16 @@ display: block;
 .feature-square h2,
 .feature-road h2,
 .feature-tourist h2 {
-  height: 65px;
+  height: 63px;
   overflow: hidden;
 }
 
 .number {
   display: block;
-  margin-top: 3px;
+  margin-top: 5px;
   margin-bottom: 23px;
+  overflow: hidden;
+  max-height: 47px;
 }
 
 .feature-motel h2::before {
